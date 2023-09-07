@@ -4,6 +4,11 @@
 
 This is a demo project for news text classification, part of this work has been admitted for the homework of Hefei University of Technology Data Mining course(0521550X). **I strongly do not recommend you submit this project for homework again.**
 
+本项目不包含数据集！
+
+This project does not contain any dataset!
+
+Please Star!
 
 ![version](https://img.shields.io/badge/NTC-v0.1-blue)
 [![Page Views Count](https://badges.toozhao.com/badges/01H9QMHGR2J0E0YE6YEGQQKYE3/green.svg)](https://badges.toozhao.com/stats/01H9QMHGR2J0E0YE6YEGQQKYE3 "Get your own page views count badge on badges.toozhao.com")
@@ -23,6 +28,17 @@ This is a demo project for news text classification, part of this work has been 
 
 ## Usage
 
+### 数据预处理 / Data preprocessing
+本项目针对的数据集是JSON格式，一条数据包含标题-内容-其他信息等多个数据。因此需要对数据集进行预处理，转换JSON格式，提取文本内容，提取标题，打标签等。这些代码均在 `data_preprocessing` 中。
+
+We processing the JSON format dataset, a single data containing Header-Content-Others information. It is necessary to process the dataset and transform it to the proper format before feeding it to the model.
+
+All these preprocessing codes are in the `data_preprocessing`.
+
+### 算法 / algorithm
+使用一些经典机器学习算法对处理后的文本进行分类，这里包含了多种经典机器学习方法。包含在 `algorithm` 中。
+
+All the algorithms tested in this demo project are in the `algorithm`.
 
 ## Maintainers
 
@@ -31,7 +47,3 @@ This is a demo project for news text classification, part of this work has been 
 ## License
 
 [Apache2.0](LICENSE) © Sensente
-
-
-# 重要！/Important！
-此代码仓库已不再维护/This branch is archieved, the lifetime is over.
