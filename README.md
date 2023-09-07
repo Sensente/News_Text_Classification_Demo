@@ -6,11 +6,8 @@ This is a demo project for news text classification, part of this work has been 
 
 
 ![version](https://img.shields.io/badge/NTC-v0.1-blue)
-[![Page Views Count](https://badges.toozhao.com/badges/01H7W0XYKGV60JJA51H7CJKYFJ/blue.svg)](https://badges.toozhao.com/stats/01H7W0XYKGV60JJA51H7CJKYFJ "Get your own page views count badge on badges.toozhao.com")
+[![Page Views Count](https://badges.toozhao.com/badges/01H9QMHGR2J0E0YE6YEGQQKYE3/green.svg)](https://badges.toozhao.com/stats/01H9QMHGR2J0E0YE6YEGQQKYE3 "Get your own page views count badge on badges.toozhao.com")
 
-
-
-The `zadoff_chu.py` contains a clear function to generate the zadoff_chu sequence in a Python way. The outcome has been tested like Matlab, but you should check it before you use it.
 
 ## Contents
 
@@ -20,12 +17,12 @@ The `zadoff_chu.py` contains a clear function to generate the zadoff_chu sequenc
 - [License](#license)
 
 ## Background
+[新闻文本分类](!https://huggingface.co/tasks/text-classification)是自然语言处理领域的经典任务，本项目通过一些经典机器学习方法处理了一个公开新闻语料库。
 
-Use Python to generate [zadoff-chu sequence](https://en.wikipedia.org/wiki/Zadoff–Chu_sequence).
+[Text classification](!https://huggingface.co/tasks/text-classification) is a fundamental task in the Natural Language Processing (NLP) field. For this project, we select a public News corpus and use some classic, machine learning methods to process it.
 
 ## Usage
 
-python.
 
 ## Maintainers
 
